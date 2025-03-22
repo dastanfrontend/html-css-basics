@@ -1,0 +1,10 @@
+# Ignore editor files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+
+# Ignore compiled or temporary files
+*.log
+*.swg
