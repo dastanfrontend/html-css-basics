@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(0, 128, 230);
+    margin: 0;
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+.cross {
+    background-color: rgb(255, 204, 51);
+    position: absolute;
+}
+
+.horizontal {
+    width: 100vw;
+    height: 100px;
+    top: 278px;
+}
+
+.vertical {
+    width: 100px;
+    height: 100vh;
+    left: 444px;
+}
