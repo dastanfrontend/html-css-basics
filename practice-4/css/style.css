@@ -1,0 +1,40 @@
+.main {
+    display: block;
+    list-style-type: none;
+}
+
+.inner {
+    display: none;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main li {
+    display: table-caption;
+    width: 10em;
+    height: 2em;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: darkred;
+    font-weight: bold;
+    font-size: 20pt;
+    color: white;
+    cursor: pointer;
+}
+
+.inner li {
+    display: block;
+    background-color: #ffffe0;
+    color: black;
+}
+
+.main li:hover > .inner {
+    position: absolute;
+    display: block;
+    left: 10.06em;
+    top: 2.06em;
+}

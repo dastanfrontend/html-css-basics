@@ -13,31 +13,66 @@
 </head>
 
 <body>
-    <section>
-        <div class="menu-container">
-            <div class="menu-items">КУРСЫ</div>
-            <div class="menu-items">МЕТОДИКА</div>
-            <div class="menu-items">ЦЕНА</div>
-            <div class="menu-items">ОТЗЫВЫ</div>
-            <img class="logo" src="/html-css-basics/practice-3/images/Asset_7logo.png" alt="Logo">
-            <div class="other-links-items">КОНТАКТЫ</div>
-            <div class="other-links-items">ТЕСТИРОВАНИЕ</div>
-            <div class="other-links-items">ВАКАНСИИ</div>
-        </div>
-        <div>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a href="#courses">КУРСЫ</a>
+                    <a href="#method">МЕТОДИКА</a>
+                    <a href="#pricing">ЦЕНА</a>
+                    <a href="#reviews">ОТЗЫВЫ</a>
+                </div>
+
+                <div class="nav-center">
+                    <img class="logo" src="/html-css-basics/practice-3/images/Asset_7logo.png" alt="Logo">
+                </div>
+
+                <div class="nav-right">
+                    <a href="#contacts">КОНТАКТЫ</a>
+                    <a href="#testing">ТЕСТИРОВАНИЕ</a>
+                    <a href="#vacancies">ВАКАНСИИ</a>
+                </div>
+            </nav>
+
+        <div class="text-section">
             <p class="white-text"><span>Начни путь</span><br> в программировании</p>
             <p class="gray-text"><span>Выбери свой формат - от тестовых краткосрочных курсов, до 10</span><br>месяцев
                 полноценного
-                обучения професии</p>
+                обучения профессии</p>
         </div>
+
         <div class="buttons-container">
-            <div class="blue-button">Записаться на курс</div>
-            <div class="white-button">Сдать тест на профориентацию</div>
+            <a href="#" class="blue-button">Записаться на курс</a>
+            <a href="#" class="white-button">Сдать тест на профориентацию</a>
         </div>
+
         <div class="down-arrow">
             <img src="/html-css-basics/practice-3/images/down-arrow (1).png" alt="Down arrow">
         </div>
-    </section>
+        </div>
+    </header>
+
+    <main>
+        <section id="courses" class="section">
+            <h2>Наши курсы</h2>
+            <p>Здесь будет информация о курсах.</p>
+        </section>
+
+        <section id="method" class="section">
+            <h2>Методика обучения</h2>
+            <p>Описание нашей методики.</p>
+        </section>
+
+        <section id="pricing" class="section">
+            <h2>Цены</h2>
+            <p>Информация о стоимости обучения.</p>
+        </section>
+
+        <section id="reviews" class="section">
+            <h2>Отзывы</h2>
+            <p>Отзывы студентов.</p>
+        </section>
+    </main>
 </body>
 
 </html>
